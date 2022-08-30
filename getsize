@@ -1,0 +1,5 @@
+System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://licindia.in/");
+		 Dimension element = driver.manage().window().getSize();
+		 System.out.println(element);

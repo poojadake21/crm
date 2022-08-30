@@ -1,4 +1,5 @@
 System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://licindia.in/");
-		driver.get("https://demo.actitime.com/login.do");
+		String ele =driver.get("https://demo.actitime.com/login.do");
+		System.out.println(ele);
